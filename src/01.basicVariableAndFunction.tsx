@@ -11,13 +11,13 @@ function App() {
             return 0;
         }
     };
-    const getage=getAge("chaudhuree")
+    const getAgeFromFUnction=getAge("chaudhuree")
     return (
         <div className="App">
             <p>hi, i am {name}</p>
     <p>i am {age} years old</p>
     <p>{isMarried ? "i am married" : "i am not married"}</p>
-    <p>{getage}</p>
+    <p>{getAgeFromFUnction}</p>
     </div>
 );
 }
