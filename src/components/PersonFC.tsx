@@ -12,4 +12,4 @@ const PersonFc: FC<Props> = ({name,age}) => {
       </div>;
 };
 
-export default PersonFc;
+export  {PersonFc};

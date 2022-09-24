@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./App.css";
 import Person from "./components/Person";
-import PersonFc from "./components/PersonFC";
+import {PersonFc} from "./components/PersonFC";
 
 const App: FC = () => {
   return (
