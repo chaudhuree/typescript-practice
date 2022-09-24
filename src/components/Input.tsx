@@ -7,13 +7,23 @@ const Input: FC = () => {
   };
   return (
     <div>
-      <h1>Input</h1>
-
-      <input
-        type="text"
-        placeholder="input your name"
-        onChange={handleChange}
-      />
+      <h1
+        style={{
+          borderBottom: "3px solid gray",
+          display: "inline-block",
+          width: "150px",
+        }}
+      >
+        Input
+      </h1>
+      <div>
+        <input
+          style={{ padding: "6px 8px", border: "none", color: "red" }}
+          type="text"
+          placeholder="input your name"
+          onChange={handleChange}
+        />
+      </div>
       <h2>{country}</h2>
     </div>
   );

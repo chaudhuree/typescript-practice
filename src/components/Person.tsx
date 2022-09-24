@@ -8,7 +8,15 @@ interface Props {
 const Person = ({ name, age, isMarried, getName }: Props) => {
   return (
     <div>
-      <h1>Person</h1>
+      <h1
+        style={{
+          borderBottom: "3px solid gray",
+          display: "inline-block",
+          width: "150px",
+        }}
+      >
+        Person
+      </h1>
 
       <h3>{name}</h3>
       <h3>{age}</h3>
