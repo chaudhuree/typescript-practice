@@ -8,6 +8,7 @@ interface Props {
 const Person = ({ name, age, isMarried, getName }: Props) => {
   return (
     <div>
+        <h5>hi</h5>
       <p>{name}</p>
       <p>{age}</p>
     </div>
