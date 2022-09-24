@@ -5,11 +5,11 @@ interface Props {
   isMarried?: boolean;
   getName?: (name: string) => string;
 }
-const Person = (props: Props) => {
+const Person = ({ name, age, isMarried, getName }: Props) => {
   return (
     <div>
-      <p>{props.name}</p>
-      <p>{props.age}</p>
+      <p>{name}</p>
+      <p>{age}</p>
     </div>
   );
 };
