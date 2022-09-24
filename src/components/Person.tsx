@@ -8,11 +8,11 @@ interface Props {
 const Person = ({ name, age, isMarried, getName }: Props) => {
   return (
     <div>
-        <h5>hi</h5>
-      <p>{name}</p>
-      <p>{age}</p>
+      <h1>Person</h1>
+
+      <h3>{name}</h3>
+      <h3>{age}</h3>
     </div>
   );
 };
-
 export default Person;
