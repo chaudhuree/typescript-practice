@@ -14,6 +14,7 @@ interface AppContextInterface {
 }
 //contextApi
 const AppContext = createContext<AppContextInterface | null>(null);
+// const AppContext = createContext<any>(null);
 
 const App: FC = () => {
   const contextValue: AppContextInterface = {
